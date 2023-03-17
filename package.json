@@ -1,18 +1,22 @@
 {
   "name": "3dportfolio",
+  "homepage": "https://Vladyslavua3.github.io/3dPortfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.2",
     "@react-three/fiber": "^8.12.0",
     "framer-motion": "^10.2.4",
+    "gh-pages": "^5.0.0",
+    "eslint": "^8.36.0",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
