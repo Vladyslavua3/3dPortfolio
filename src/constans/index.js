@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -15,10 +11,6 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -40,16 +32,7 @@ export const navLinks = [
     },
 ];
 
-const services = [
-    {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-];
+
 
 const technologies = [
     {
@@ -106,70 +89,24 @@ const technologies = [
     },
 ];
 
-const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
-
 
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "SubFag",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "rtk-query",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "styled-components",
                 color: "pink-text-gradient",
             },
         ],
@@ -177,20 +114,20 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Inctagram",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "redux-toolkit",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "mui",
                 color: "pink-text-gradient",
             },
         ],
@@ -220,4 +157,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, projects };
+export {  technologies,  projects };

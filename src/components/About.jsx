@@ -52,13 +52,6 @@ const About = () => {
         user-friendly solutions that
         solve real-world problems.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service,index)=>{
-          return <ServiceCard key={service.title}
-          index={index} {...service}/>
-        })}
-
-      </div>
     </>
   )
 }
