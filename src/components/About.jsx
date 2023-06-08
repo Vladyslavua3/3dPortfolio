@@ -1,9 +1,7 @@
 import React from 'react'
 import Tilt from "react-tilt/dist/tilt.js";
 import {motion} from "framer-motion";
-
 import {styles} from "../style.js";
-import {services} from "../constans/index.js";
 import {fadeIn,textVariant} from "../utils/motion.js";
 import {SectionWrapper} from '../hoc'
 

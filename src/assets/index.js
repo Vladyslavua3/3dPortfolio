@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -18,12 +17,11 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import inctagram from "./inctagram.png";
+import todo from "./todo.png";
+import subfag from "./subfag.png";
 
 export {
-  logo,
   github,
   menu,
   close,
@@ -40,7 +38,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  inctagram,
+  todo,
+  subfag,
 };

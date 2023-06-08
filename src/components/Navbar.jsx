@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {styles} from '../style.js'
 import {navLinks} from "../constans/index.js";
-import {logo,menu,close} from '../assets'
+import {menu,close} from '../assets'
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
@@ -18,11 +18,11 @@ const Navbar = () => {
             setActive('')
             window.scroll(0,0)
         }}>
-        <img src={logo} alt={'logo'} className="w-9
-        h-9 object-contain"/>
+        {/*<img src={logo} alt={'logo'} className="w-9*/}
+        {/*h-9 object-contain"/>*/}
             <p className='text-white text-[18px]
-            font-bold cursor-pointer flex'>Vladyslav &nbsp;
-                <span className='sm:block hidden'>| React Developer</span></p>
+            font-bold cursor-pointer flex'>Gershman &nbsp;
+                <span className='sm:block hidden'>| Frontend Developer</span></p>
         </Link>
           <ul className='list-none hidden sm:flex
           flex-row gap-10'>
