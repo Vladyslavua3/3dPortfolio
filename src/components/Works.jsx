@@ -97,4 +97,4 @@ const ProjectCard = ({index,name,description,tags,image,
 
 
 
-export default SectionWrapper(Works,'')
+export default SectionWrapper(Works,'work')
