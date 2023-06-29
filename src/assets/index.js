@@ -20,6 +20,7 @@ import threejs from "./tech/threejs.svg";
 import inctagram from "./inctagram.png";
 import todo from "./todo.png";
 import subfag from "./subfag.png";
+import cryptoHub from './cryptoHub.png'
 
 export {
   github,
@@ -41,4 +42,5 @@ export {
   inctagram,
   todo,
   subfag,
+  cryptoHub
 };

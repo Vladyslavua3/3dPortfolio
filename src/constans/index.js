@@ -11,8 +11,13 @@ import {
     git,
     figma,
     docker,
-    threejs, subfag, inctagram, todo,
+    threejs,
+    subfag,
+    inctagram,
+    todo,
+    cryptoHub
 } from "../assets";
+
 
 export const navLinks = [
     {
@@ -138,7 +143,7 @@ const projects = [
     {
         name: "ToDo Advanced",
         description:
-            "Experience the power of an advanced Todo application built using React, Redux, and Redux Thunk. This feature-rich app offers seamless task management, leveraging Redux for efficient state handling and Redux Thunk for asynchronous actions. Connect to an external API to fetch and update Todo data, ensuring real-time synchronization. Create, edit, and delete tasks with ease, while marking them as complete or pending. Organize your tasks effortlessly using sorting, filtering, and search functionalities. ",
+            "Experience the power of an advanced Todo application built using React, Redux, and Redux Thunk. ",
         tags: [
             {
                 name: "react",
@@ -159,6 +164,32 @@ const projects = [
         ],
         image: todo,
         source_code_link: "https://github.com/Vladyslavua3/ToDoAdvanced",
+    },
+    {
+        name: "CryptoHub",
+        description:
+            "Develop an application for accessing up-to-date information\n" +
+            "about cryptocurrency",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "redux thunk",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "chakra ui",
+                color: "green-text-gradient",
+            },
+        ],
+        image: cryptoHub,
+        source_code_link: "https://github.com/Vladyslavua3/cryptoHub",
     },
 ];
 
