@@ -15,7 +15,10 @@ import {
     subfag,
     inctagram,
     todo,
-    cryptoHub
+    cryptoHub,
+    carRent,
+    cms,
+    nextjs
 } from "../assets";
 
 
@@ -58,6 +61,10 @@ const technologies = [
         icon: reactjs,
     },
     {
+        name: "Next JS",
+        icon: nextjs,
+    },
+    {
         name: "Redux Toolkit",
         icon: redux,
     },
@@ -95,25 +102,54 @@ const technologies = [
 
 const projects = [
     {
-        name: "SubFag",
+        name: "CarRent",
         description:
-            "Web-based platform that allows users to play online in GSGO, book, and provide users marketplace to exchange game items .",
+            "Web application that allows users to choose and rent a car.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "rtk-query",
+                name: "rapid-api",
                 color: "green-text-gradient",
             },
             {
-                name: "styled-components",
+                name: "server-side-rendering",
                 color: "pink-text-gradient",
             },
         ],
-        image: subfag,
-        source_code_link: "https://github.com/",
+        image: carRent,
+        source_code_link: "https://rent-car-chi-gules.vercel.app/",
+    },
+    {
+        name: "CMS",
+        description:
+            "Conceptualized and developed a comprehensive Content Management System (CMS), designed to provide a user-friendly platform for content creation and management.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "prisma",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySql",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "shadcn",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "clerk",
+                color: "green-text-gradient",
+            },
+        ],
+        image: cms,
+        source_code_link: "https://github.com/Vladyslavua3/CMS-System",
     },
     {
         name: "Inctagram",
@@ -125,20 +161,20 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "redux-toolkit",
+                name: "zustand",
                 color: "green-text-gradient",
             },
             {
-                name: "mui",
+                name: "scss module",
                 color: "pink-text-gradient",
             },
             {
-                name: "rtk-query",
+                name: "reactQuery",
                 color: "green-text-gradient",
             },
         ],
         image: inctagram,
-        source_code_link: "https://github.com/Tsukimono13/Inctagram",
+        source_code_link: "https://github.com/MarikaKonturova/inctagram-v2",
     },
     {
         name: "ToDo Advanced",
@@ -164,6 +200,27 @@ const projects = [
         ],
         image: todo,
         source_code_link: "https://github.com/Vladyslavua3/ToDoAdvanced",
+    },
+    {
+        name: "SubFag",
+        description:
+            "Web-based platform that allows users to play online in GSGO, book, and provide users marketplace to exchange game items .",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rtk-query",
+                color: "green-text-gradient",
+            },
+            {
+                name: "styled-components",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: subfag,
+        source_code_link: "https://github.com/",
     },
     {
         name: "CryptoHub",

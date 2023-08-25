@@ -25,8 +25,7 @@ const Works = () => {
           and experience through
           real-world examples of my work.
           Each project is briefly descried with
-          links to code repositories and live
-          demos in it.It reflect my ability
+          links to code repositories.It reflect my ability
           to solve complex problems, work
           with different technologies,
           and manage projects effectively

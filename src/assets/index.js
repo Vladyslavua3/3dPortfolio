@@ -15,12 +15,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from './tech/nextjs.png'
 
 
 import inctagram from "./inctagram.png";
 import todo from "./todo.png";
 import subfag from "./subfag.png";
 import cryptoHub from './cryptoHub.png'
+import carRent from "./car_rent.png"
+import cms from "./cms1.png"
 
 export {
   github,
@@ -42,5 +45,8 @@ export {
   inctagram,
   todo,
   subfag,
-  cryptoHub
+  cryptoHub,
+  carRent,
+  cms,
+  nextjs
 };
